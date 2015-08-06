@@ -61,7 +61,7 @@ window.onload = function(){
 	function draw()
 	{
 		ctx.globalCompositeOperation = "source-over";
-		ctx.fillStyle = "black";
+		ctx.fillStyle = "#2a2a2a";
 		ctx.fillRect(0, 0, W, H);
 		ctx.globalCompositeOperation = "lighter";
 

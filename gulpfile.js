@@ -36,6 +36,7 @@ gulp.task('jade', function () {
 gulp.task('scripts', function() {
     // return gulp.src('assets/js/*.js')
     return gulp.src('assets/js/pixel-fire.js')
+    // return gulp.src('assets/js/untitled.js')
         .pipe(concat('all.js'))
         .pipe(gulp.dest('public/js'))
         .pipe(rename('all.min.js'))
