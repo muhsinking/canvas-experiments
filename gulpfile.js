@@ -34,7 +34,8 @@ gulp.task('jade', function () {
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-    return gulp.src('assets/js/*.js')
+    // return gulp.src('assets/js/*.js')
+    return gulp.src('assets/js/pixel-fire.js')
         .pipe(concat('all.js'))
         .pipe(gulp.dest('public/js'))
         .pipe(rename('all.min.js'))
